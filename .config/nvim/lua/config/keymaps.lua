@@ -3,9 +3,7 @@
 -- Add any additional keymaps here
 
 -- Trouble
-vim.keymap.set("n", "<S-t>", function()
-  require("trouble").toggle()
-end)
+vim.keymap.set("n", "<S-t>", "<cmd>Trouble diagnostics toggle<cr>")
 
 -- This is going to get me cancelled
 vim.keymap.set("i", "<C-c>", "<Esc>")
