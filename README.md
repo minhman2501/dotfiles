@@ -1,6 +1,6 @@
 # Dotfiles
 
-My dotfiles configuration using Stow.
+My dotfiles configuration using Stow
 
 ## The configuration includes
 
