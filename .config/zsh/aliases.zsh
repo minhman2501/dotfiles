@@ -10,3 +10,6 @@ alias lazy='lazygit'
 #Update 
 alias update='sudo dnf update -y'
 alias upgrade='sudo dnf upgrade -y'
+
+#OpenVPN
+alias runvpn='cd ~/.config/openvpn && sudo openvpn ./vpnus.ovpn && cd ~'
