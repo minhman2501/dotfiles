@@ -5,11 +5,12 @@ return {
       local gruvbox = require("gruvbox")
       gruvbox.setup({
         transparent_mode = true,
+        dim_inactive = false,
       })
     end,
   },
 
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
