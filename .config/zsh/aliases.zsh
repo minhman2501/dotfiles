@@ -7,6 +7,9 @@ alias kittyconfig='nvim ~/.config/kitty/kitty.conf'
 #Lazygit
 alias lazy='lazygit'
 
+#Nvim distros
+alias nvchad="NVIM_APPNAME=NvChad nvim"
+
 #Update 
 alias update='sudo dnf update -y'
 alias upgrade='sudo dnf upgrade -y'
