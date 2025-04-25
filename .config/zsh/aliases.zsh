@@ -2,6 +2,7 @@ alias cl=clear
 
 # Configuration
 alias zshconfig='nvim ~/.config/zsh/.zshrc'
+alias nvchadconfig='cd ~/.config/NvChad/ && nvchad'
 alias kittyconfig='nvim ~/.config/kitty/kitty.conf'
 
 #Lazygit
